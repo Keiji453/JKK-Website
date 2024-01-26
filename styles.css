@@ -101,16 +101,16 @@
 
 /* Hero Section */
 .main {
-    background-color: black;
+    background-color: beige;
+    /*background-image: url("Images/Pancake.jpg");*/
 }
 
 .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 120vh;
     background-color: grey;
     z-index: 1;
     width: 100%;
@@ -184,10 +184,65 @@
 
 .main__img__container {
     text-align: center;
+    height: 80%;
+    width: 80%;
 }
 
 #main__img {
     border-radius: 4px;
-    height: 80%;
-    width: 80%;
+    height: 80%; width: 80%;
+}
+
+/* Projects Section */
+.projects {
+    background-color: chocolate;
+}
+
+.projects__title__card {
+    position:absolute;
+    height: 60px;
+    left: 50px;
+    top: 900px;
+    display: flex;
+    border-style: solid;
+    border-color:blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    margin: 25 auto;
+    height: 25vh;
+    background-color: brown;
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+
+.projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: cornsilk;
+    z-index: 0;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+}
+
+.project__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    margin: 0 auto;
+    height: 10vh;
+    background-color: grey;
+    width: 100%;
+    max-width: 500px;
+    padding: 0;
+    border-radius: 10px;
 }
