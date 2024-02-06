@@ -196,9 +196,8 @@ html {
 }
 
 .project__card {
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 0.25fr 1.75fr;
     justify-items: center;
     z-index: 3;
     margin: 0 auto;

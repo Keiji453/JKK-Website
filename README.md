@@ -1,4 +1,4 @@
 # JKK-Website
-Personal Note from most recent commit, "git push origin main" didn't work had to use "git push origin HEAD:master"
+Welcome! This is my personal website/portfolio. This website is purely static and is comprised of only HTML and CSS. This project was done without any frameworks and was used to learn about the HTML/CSS box model!
 
-Made based around this introductory tutorial: https://www.youtube.com/watch?v=FazgJVnrVuI
+This project is heavily inspired by this tutorial: https://www.youtube.com/watch?v=FazgJVnrVuI
